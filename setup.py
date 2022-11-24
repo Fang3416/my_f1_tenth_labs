@@ -20,7 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'my_node = my_f1_tenth_labs.my_node:main'
+            'my_node = my_f1_tenth_labs.my_node:main',
+            'emergency_braking = my_f1_tenth_labs.emergency_braking:main',
+            'wall_follow = my_f1_tenth_labs.wall_follow:main',
+            'follow_the_gap = my_f1_tenth_labs.follow_the_gap:main'
         ],
     },
 )
